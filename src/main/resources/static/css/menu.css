@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.body{
+    background-color: lightslategray;
+    font-family: sans-serif;
+     padding: 110px 10px 0;  /*Alto - abajo- lados*/
+}
+.header{
+    top: 0;
+    background-color: cadetblue; 
+    height: 108px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    position: fixed;  
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    
+}
+.navLink{
+    color: lightyellow;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+.navMenu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    
+}
+.tituloLogo{
+    color:lightyellow;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 80px 0;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.navItem{
+    font-size: 22px;
+    margin: 0 10px 0;
+    line-height: 108px;
+    width: max-content;
+}
+.navLink:hover{
+    background-color: lightgrey;
+    color: black;
+    transition: 0.5s;
+    
+}
+.navLink{
+    padding: 5px 8px;
+    border-radius: 5px
+}
+
+.barra{
+    background-color: dimgray;
+    font-family: fantasy;
+    top: 500px;
+    height: 700px;
+    width: 200px;
+    left: 0;
+    padding: 10px 10px 5px;
+  
+}
+
+    
+        
+    
+  
+    
+    
+    
+
